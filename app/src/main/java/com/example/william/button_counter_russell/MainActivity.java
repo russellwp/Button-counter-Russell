@@ -61,4 +61,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+    /*@Override
+    public void onSaveInstanceState(Bundle savedInstanceState){
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putString(textCount, textCount);
+    }
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        String saveString = savedInstanceState.getString(textCount);
+    }*/
 }
